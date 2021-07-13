@@ -49,3 +49,5 @@ With this `.wp-env.json` we're including in the WordPress installation:
   - Add the theme at the path `./themes/nude-theme` to the WordPress installation and link the folder (so changes in that folder will be reflected in the WordPress container at http://localhost:8888/)
   - Download and add the _tt1-blocks theme_
   - Download and add the _armando_
+
+> Check the [oficial documentation of the `@wordpress/env` package](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) for more customization options
