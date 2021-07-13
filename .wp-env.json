@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "./plugins/starter-block",
+    "https://downloads.wordpress.org/plugin/gutenberg.11.0.0.zip"
+  ],
+  "themes": [
+    "./themes/nude-theme",
+    "https://downloads.wordpress.org/theme/tt1-blocks.0.4.7.zip",
+    "https://downloads.wordpress.org/theme/armando.1.2.3.zip"
+  ]
+}
