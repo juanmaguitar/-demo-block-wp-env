@@ -2,8 +2,6 @@
 
 This demo shows an example of organizing the code of a plugin or a theme in a repository including the tools ([`@wordpress/env`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/)) to setup the whole Backend Stack needed for any WordPress environment
 
-https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#prerequisites
-
 ## Prerequisites
 
 This demo uses [`@wordpress/env`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) to set the development environment so [the requisites of this package must be installed](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#prerequisites)
