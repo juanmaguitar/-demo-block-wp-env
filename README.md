@@ -31,7 +31,7 @@ MySQL is listening on port 50920
  ✔ Done! (in 54s 875ms)
 ```
 
-These containers will also a custom configuration defined at [`.wp-env.json`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#wp-env-json)
+These containers will also apply a custom configuration defined at [`.wp-env.json`](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/#wp-env-json)
 
 ```
 {
