@@ -11,6 +11,7 @@ This demo uses [`@wordpress/env`](https://developer.wordpress.org/block-editor/r
 To launch all Backend Docker services required for WordPress development you have to execute _from the root of the project_:
 
 ```
+npm install
 npm run wp-env start
 ```
 
@@ -46,6 +47,7 @@ These containers will also apply a custom configuration defined at [`.wp-env.jso
 ```
 
 With this `.wp-env.json` we're including in the WordPress installation:
+
 - Some custom **plugins**
   - Add (and activate) the plugin at the path `./plugins/starter-block` to the WordPress installation and link the folder (so changes in that folder will be reflected in the WordPress container at http://localhost:8888/)
   - Download, add and activate the Gutenberg plugin
@@ -55,3 +57,17 @@ With this `.wp-env.json` we're including in the WordPress installation:
   - Download and add the _armando_
 
 > Check the [oficial documentation of the `@wordpress/env` package](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) for more customization options
+
+After initialization, you can access WordPress in http://localhost:8888. You can login to the dashbard going to http://localhost:8888 and using `admin` as the user and `password` as the password.
+
+## The `starter-block` plugin
+
+You also need to build the required JS and CSS bundles of the `starter-block` plugin included in the repository. To do so, run:
+
+```
+cd plugins/starter-block
+npm install
+npm run build
+```
+
+If you want to develop this plugin, you can run `npm start` instead.
