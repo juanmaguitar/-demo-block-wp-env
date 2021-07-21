@@ -60,6 +60,8 @@ With this `.wp-env.json` we're including in the WordPress installation:
 
 After initialization, you can access WordPress in http://localhost:8888. You can login to the dashbard going to http://localhost:8888 and using `admin` as the user and `password` as the password.
 
+To stop the project, you can run `npm run wp-env stop`.
+
 ## The `starter-block` plugin
 
 You also need to build the required JS and CSS bundles of the `starter-block` plugin included in the repository. To do so, run:
